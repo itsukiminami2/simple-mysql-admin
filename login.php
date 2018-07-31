@@ -9,7 +9,7 @@
 <html>
 <style>
 body {
-	font-family : open sans light;
+	font-family : Open Sans;
 }
 
 /* Full-width input fields */
