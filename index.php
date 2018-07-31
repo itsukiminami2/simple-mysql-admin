@@ -47,7 +47,7 @@
 	</script>
 	<style>
 		body {
-			font-family: Open sans light;
+			font-family: Open Sans;
 			margin-left : 300px;
 		}
 		
@@ -166,7 +166,7 @@
 
 		<h2 class="heading">MySQL administrator</h2><br />
 		
-				<span id="dbname" style="text-shadow : 1px 1px 1px gray;">Create new database :&nbsp;</span>
+				<span id="dbname">Create new database :&nbsp;</span>
 				<input type="text" id="newdb_name" placeholder="New database name..."/>&nbsp;&nbsp;
 				<button onclick="getData('CREATE DATABASE ' + document.getElementById('newdb_name').value)">Create!</button>
 			
@@ -194,7 +194,7 @@
 		<button id="btn1" onclick="getData(document.getElementById('query').value)">Submit</button>
 		<button id="btn2" onclick="cleartext()">Clear</button>
 		
-		<p class="heading"><b>Output :</b></p><br /><br />
+		<p><b>Output :</b></p><br /><br />
 		<div id="output"></div>
 </body>
 </html>
